@@ -1,0 +1,189 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  width: 100%;
+}
+
+/*html {
+  background-color: white;
+}*/
+
+/*#body:fullscreen {
+  background-color: white;
+}*/
+
+/*div:fullscreen {
+  background-color: white;
+}*/
+
+h1,h2,h3,p {
+  font-family: helvetica;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+#test{
+  margin: 0 auto;
+  /*padding: 0 33%;*/
+  /*display: flex;*/
+  text-align: center;
+}
+
+.announcement {
+  padding: 10%;
+  background-color: orange;
+  height: 100vh;
+}
+
+.logo {
+  background: linear-gradient(to left, #7b4397, #dc2430);
+}
+
+.feature{
+  padding-top: 10vh;
+  height: 100vh;
+  padding: 10%;
+  background-color: #3b5998;
+}
+
+.feature img {
+ max-width: 30%;
+ filter: invert(100%);
+}
+
+.feature h1,p {
+  color: white;
+  margin-top:0;
+}
+
+.post_container {
+  text-align: left;
+  background-color: white;
+  box-shadow: rgb(204, 204, 204) 1px 1px 1px 1px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 20vh;
+  border-radius: 5px 5px 0 0;
+  width: 60%;
+  border-left: 4px solid #7AA7FF;
+  border-right: 4px solid #7AA7FF;
+  border-top: 4px solid #7AA7FF;
+}
+
+.op_container {
+
+}
+
+.op {
+  display: inline-block;
+  margin-left: 10px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.name {
+  color: rgb(54, 88, 153);
+  margin: 0px;
+}
+
+.time {
+  display: inline-block;
+  color: lightgrey;
+  margin: 10px 0px 0px;
+}
+
+.profile {
+  vertical-align: center;
+  width: 128px;
+  border: 1px solid lightgrey;
+}
+
+.anon_text {
+  color: black;
+  margin-top: 1em;
+}
+
+span {
+  color: #3b5998;
+  font-size: 1em;
+}
+
+#comments {
+  text-align: left;
+  border-top: 1px dashed grey;
+  background-color: #eee;
+  color: black;
+  width: 60%;
+  padding: 10px;
+  margin: 0 auto;
+  border-left: 4px solid #7AA7FF;
+  border-right: 4px solid #7AA7FF;
+  border-bottom: 4px solid #7AA7FF;
+  box-shadow: rgb(204, 204, 204) 1px 1px 1px 1px;
+}
+
+#comments p {
+  color: black;
+}
+
+h1,p {
+  color: white;
+}
+
+.table-container {
+  width: 60%;
+  margin: 0 auto;
+  color: black;
+  margin-top: 15vh;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: left;
+}
+
+thead {
+  background-color: #3b5998;
+  color: white;
+}
+
+td,th {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 0;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #eee;
+}
+
+.available {
+  color: #2D8376;
+}
+
+.upcoming {
+  color: #5D92FF;
+}
+
+.proposed {
+  color: #F8A058;
+}
+
+#countdown {
+  display: inline-block;
+  width: 0;
+  height: 0.2em;
+  background-color: #5D92ff;
+  position: absolute;
+  top: 0;
+  /*transition-duration: 1s;*/
+  /*transition-timing-function: linear;*/
+}
